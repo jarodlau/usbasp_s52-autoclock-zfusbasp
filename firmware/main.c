@@ -392,12 +392,13 @@ int main(void) {
 	/* pullups on LED pins */
 	//PORTD = (1 << PD5) | (1 << PD6);
 	PORTB = 0;
-    /* all inputs except PD5(green)and PD6(red) */
-    /* 初值的问题,折腾了半天,红灯始终不亮,终于搞定*/
-	DDRD  = 0x60;
-    /* 默认开启绿灯, 不影响其他位*/
-    PORTD |= 0x40;
-    //PORTD = 0x60;
+	/* all inputs except PD5(green)and PD6(red) */
+	//all input
+	//DDRD = 0;
+	/* 初值的问题,折腾了半天,红灯始终不亮,终于搞定*/
+	DDRD  |= 0x60;
+	/* 默认开启绿灯, 不影响其他位*/
+	PORTD |= 0x40;
 
 	/* output SE0 for USB reset */
 	DDRB = ~0;

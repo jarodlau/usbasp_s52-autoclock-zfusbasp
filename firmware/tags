@@ -16,7 +16,7 @@ DEBUG_LEVEL	usbdrv/oddebug.h	44;"	d
 ENABLE_BIT_DEFINITIONS	usbdrv/usbportability.h	34;"	d
 F_CPU	clock.h	14;"	d
 F_CPU	usbdrv/oddebug.h	28;"	d
-GET_DESCRIPTOR	usbdrv/usbdrv.c	296;"	d	file:
+GET_DESCRIPTOR	usbdrv/usbdrv.c	299;"	d	file:
 HFUSE	Makefile	/^HFUSE=0xc9$/;"	m
 ISP	Makefile	/^ISP=usbasp$/;"	m
 ISP_DDR	isp.h	21;"	d
@@ -56,30 +56,30 @@ PRG_RDB	usbdrv/usbportability.h	142;"	d
 PROGMEM	usbdrv/usbportability.h	50;"	d
 PROGMEM	usbdrv/usbportability.h	52;"	d
 PROGMEM	usbdrv/usbportability.h	96;"	d
-PROG_BLOCKFLAG_FIRST	usbasp.h	46;"	d
-PROG_BLOCKFLAG_LAST	usbasp.h	47;"	d
-PROG_STATE_IDLE	usbasp.h	37;"	d
-PROG_STATE_READEEPROM	usbasp.h	40;"	d
-PROG_STATE_READFLASH	usbasp.h	39;"	d
-PROG_STATE_TPI_READ	usbasp.h	42;"	d
-PROG_STATE_TPI_WRITE	usbasp.h	43;"	d
-PROG_STATE_WRITEEEPROM	usbasp.h	41;"	d
-PROG_STATE_WRITEFLASH	usbasp.h	38;"	d
+PROG_BLOCKFLAG_FIRST	usbasp.h	49;"	d
+PROG_BLOCKFLAG_LAST	usbasp.h	50;"	d
+PROG_STATE_IDLE	usbasp.h	40;"	d
+PROG_STATE_READEEPROM	usbasp.h	43;"	d
+PROG_STATE_READFLASH	usbasp.h	42;"	d
+PROG_STATE_TPI_READ	usbasp.h	45;"	d
+PROG_STATE_TPI_WRITE	usbasp.h	46;"	d
+PROG_STATE_WRITEEEPROM	usbasp.h	44;"	d
+PROG_STATE_WRITEFLASH	usbasp.h	41;"	d
 RTMODEL	usbdrv/usbdrvasm.S	/^RTMODEL "__rt_version", "3"$/;"	l
 S5x	isp.h	28;"	d
 SERIAL	Makefile	/^SERIAL = `echo \/dev\/tty.USA19QI*`$/;"	m
-SWITCH_CASE	usbdrv/usbdrv.c	268;"	d	file:
-SWITCH_CASE	usbdrv/usbdrv.c	275;"	d	file:
-SWITCH_CASE2	usbdrv/usbdrv.c	269;"	d	file:
-SWITCH_CASE2	usbdrv/usbdrv.c	276;"	d	file:
-SWITCH_CASE3	usbdrv/usbdrv.c	270;"	d	file:
-SWITCH_CASE3	usbdrv/usbdrv.c	277;"	d	file:
-SWITCH_DEFAULT	usbdrv/usbdrv.c	271;"	d	file:
-SWITCH_DEFAULT	usbdrv/usbdrv.c	278;"	d	file:
-SWITCH_END	usbdrv/usbdrv.c	272;"	d	file:
-SWITCH_END	usbdrv/usbdrv.c	279;"	d	file:
-SWITCH_START	usbdrv/usbdrv.c	267;"	d	file:
-SWITCH_START	usbdrv/usbdrv.c	274;"	d	file:
+SWITCH_CASE	usbdrv/usbdrv.c	271;"	d	file:
+SWITCH_CASE	usbdrv/usbdrv.c	278;"	d	file:
+SWITCH_CASE2	usbdrv/usbdrv.c	272;"	d	file:
+SWITCH_CASE2	usbdrv/usbdrv.c	279;"	d	file:
+SWITCH_CASE3	usbdrv/usbdrv.c	273;"	d	file:
+SWITCH_CASE3	usbdrv/usbdrv.c	280;"	d	file:
+SWITCH_DEFAULT	usbdrv/usbdrv.c	274;"	d	file:
+SWITCH_DEFAULT	usbdrv/usbdrv.c	281;"	d	file:
+SWITCH_END	usbdrv/usbdrv.c	275;"	d	file:
+SWITCH_END	usbdrv/usbdrv.c	282;"	d	file:
+SWITCH_START	usbdrv/usbdrv.c	270;"	d	file:
+SWITCH_START	usbdrv/usbdrv.c	277;"	d	file:
 TARGET	Makefile	/^TARGET=atmega8$/;"	m
 TCCR0B	clock.h	19;"	d
 TIMERVALUE	clock.h	15;"	d
@@ -115,247 +115,247 @@ TPI_OP_SSTCS	tpi_defs.h	18;"	d
 TPI_OP_SSTPR	tpi_defs.h	14;"	d
 TPI_OP_SST_INC	tpi_defs.h	13;"	d
 UISP	Makefile	/^UISP = uisp -dprog=$S -dserial=$(SERIAL) -dpart=auto$/;"	m
-USBASP_CAP_0_TPI	usbasp.h	34;"	d
-USBASP_FUNC_CONNECT	usbasp.h	15;"	d
-USBASP_FUNC_DISCONNECT	usbasp.h	16;"	d
-USBASP_FUNC_ENABLEPROG	usbasp.h	19;"	d
-USBASP_FUNC_GETCAPABILITIES	usbasp.h	31;"	d
-USBASP_FUNC_READEEPROM	usbasp.h	21;"	d
-USBASP_FUNC_READFLASH	usbasp.h	18;"	d
-USBASP_FUNC_SETISPSCK	usbasp.h	24;"	d
-USBASP_FUNC_SETLONGADDRESS	usbasp.h	23;"	d
-USBASP_FUNC_TPI_CONNECT	usbasp.h	25;"	d
-USBASP_FUNC_TPI_DISCONNECT	usbasp.h	26;"	d
-USBASP_FUNC_TPI_RAWREAD	usbasp.h	27;"	d
-USBASP_FUNC_TPI_RAWWRITE	usbasp.h	28;"	d
-USBASP_FUNC_TPI_READBLOCK	usbasp.h	29;"	d
-USBASP_FUNC_TPI_WRITEBLOCK	usbasp.h	30;"	d
-USBASP_FUNC_TRANSMIT	usbasp.h	17;"	d
-USBASP_FUNC_WRITEEEPROM	usbasp.h	22;"	d
-USBASP_FUNC_WRITEFLASH	usbasp.h	20;"	d
-USBASP_H_	usbasp.h	12;"	d
-USBASP_ISP_SCK_0_5	usbasp.h	51;"	d
-USBASP_ISP_SCK_1	usbasp.h	52;"	d
-USBASP_ISP_SCK_1500	usbasp.h	62;"	d
-USBASP_ISP_SCK_16	usbasp.h	56;"	d
-USBASP_ISP_SCK_187_5	usbasp.h	59;"	d
-USBASP_ISP_SCK_2	usbasp.h	53;"	d
-USBASP_ISP_SCK_32	usbasp.h	57;"	d
-USBASP_ISP_SCK_375	usbasp.h	60;"	d
-USBASP_ISP_SCK_4	usbasp.h	54;"	d
-USBASP_ISP_SCK_750	usbasp.h	61;"	d
-USBASP_ISP_SCK_8	usbasp.h	55;"	d
-USBASP_ISP_SCK_93_75	usbasp.h	58;"	d
-USBASP_ISP_SCK_AUTO	usbasp.h	50;"	d
-USBATTR_REMOTEWAKE	usbdrv/usbdrv.h	723;"	d
-USBATTR_SELFPOWER	usbdrv/usbdrv.h	722;"	d
-USBDDR	usbdrv/usbdrv.h	543;"	d
-USBDESCR_CONFIG	usbdrv/usbdrv.h	713;"	d
-USBDESCR_DEVICE	usbdrv/usbdrv.h	712;"	d
-USBDESCR_ENDPOINT	usbdrv/usbdrv.h	716;"	d
-USBDESCR_HID	usbdrv/usbdrv.h	717;"	d
-USBDESCR_HID_PHYS	usbdrv/usbdrv.h	719;"	d
-USBDESCR_HID_REPORT	usbdrv/usbdrv.h	718;"	d
-USBDESCR_INTERFACE	usbdrv/usbdrv.h	715;"	d
-USBDESCR_STRING	usbdrv/usbdrv.h	714;"	d
-USBDRV_VERSION	usbdrv/usbdrv.h	125;"	d
-USBIDLE	usbdrv/usbdrv.h	548;"	d
-USBIN	usbdrv/usbdrv.h	542;"	d
-USBMASK	usbdrv/usbdrv.h	549;"	d
-USBMINUS	usbdrv/usbdrv.h	546;"	d
-USBOUT	usbdrv/usbdrv.h	540;"	d
-USBPID_ACK	usbdrv/usbdrv.h	637;"	d
-USBPID_DATA0	usbdrv/usbdrv.h	634;"	d
-USBPID_DATA1	usbdrv/usbdrv.h	635;"	d
-USBPID_IN	usbdrv/usbdrv.h	633;"	d
-USBPID_NAK	usbdrv/usbdrv.h	638;"	d
-USBPID_OUT	usbdrv/usbdrv.h	632;"	d
-USBPID_SETUP	usbdrv/usbdrv.h	631;"	d
-USBPID_STALL	usbdrv/usbdrv.h	639;"	d
-USBPLUS	usbdrv/usbdrv.h	547;"	d
-USBRQ_CLEAR_FEATURE	usbdrv/usbdrv.h	700;"	d
-USBRQ_DIR_DEVICE_TO_HOST	usbdrv/usbdrv.h	696;"	d
-USBRQ_DIR_HOST_TO_DEVICE	usbdrv/usbdrv.h	695;"	d
-USBRQ_DIR_MASK	usbdrv/usbdrv.h	694;"	d
-USBRQ_GET_CONFIGURATION	usbdrv/usbdrv.h	705;"	d
-USBRQ_GET_DESCRIPTOR	usbdrv/usbdrv.h	703;"	d
-USBRQ_GET_INTERFACE	usbdrv/usbdrv.h	707;"	d
-USBRQ_GET_STATUS	usbdrv/usbdrv.h	699;"	d
-USBRQ_HID_GET_IDLE	usbdrv/usbdrv.h	727;"	d
-USBRQ_HID_GET_PROTOCOL	usbdrv/usbdrv.h	728;"	d
-USBRQ_HID_GET_REPORT	usbdrv/usbdrv.h	726;"	d
-USBRQ_HID_SET_IDLE	usbdrv/usbdrv.h	730;"	d
-USBRQ_HID_SET_PROTOCOL	usbdrv/usbdrv.h	731;"	d
-USBRQ_HID_SET_REPORT	usbdrv/usbdrv.h	729;"	d
-USBRQ_RCPT_DEVICE	usbdrv/usbdrv.h	683;"	d
-USBRQ_RCPT_ENDPOINT	usbdrv/usbdrv.h	685;"	d
-USBRQ_RCPT_INTERFACE	usbdrv/usbdrv.h	684;"	d
-USBRQ_RCPT_MASK	usbdrv/usbdrv.h	682;"	d
-USBRQ_SET_ADDRESS	usbdrv/usbdrv.h	702;"	d
-USBRQ_SET_CONFIGURATION	usbdrv/usbdrv.h	706;"	d
-USBRQ_SET_DESCRIPTOR	usbdrv/usbdrv.h	704;"	d
-USBRQ_SET_FEATURE	usbdrv/usbdrv.h	701;"	d
-USBRQ_SET_INTERFACE	usbdrv/usbdrv.h	708;"	d
-USBRQ_SYNCH_FRAME	usbdrv/usbdrv.h	709;"	d
-USBRQ_TYPE_CLASS	usbdrv/usbdrv.h	690;"	d
-USBRQ_TYPE_MASK	usbdrv/usbdrv.h	688;"	d
-USBRQ_TYPE_STANDARD	usbdrv/usbdrv.h	689;"	d
-USBRQ_TYPE_VENDOR	usbdrv/usbdrv.h	691;"	d
-USB_BUFSIZE	usbdrv/usbdrv.h	565;"	d
+USBASP_CAP_0_TPI	usbasp.h	37;"	d
+USBASP_FUNC_CONNECT	usbasp.h	18;"	d
+USBASP_FUNC_DISCONNECT	usbasp.h	19;"	d
+USBASP_FUNC_ENABLEPROG	usbasp.h	22;"	d
+USBASP_FUNC_GETCAPABILITIES	usbasp.h	34;"	d
+USBASP_FUNC_READEEPROM	usbasp.h	24;"	d
+USBASP_FUNC_READFLASH	usbasp.h	21;"	d
+USBASP_FUNC_SETISPSCK	usbasp.h	27;"	d
+USBASP_FUNC_SETLONGADDRESS	usbasp.h	26;"	d
+USBASP_FUNC_TPI_CONNECT	usbasp.h	28;"	d
+USBASP_FUNC_TPI_DISCONNECT	usbasp.h	29;"	d
+USBASP_FUNC_TPI_RAWREAD	usbasp.h	30;"	d
+USBASP_FUNC_TPI_RAWWRITE	usbasp.h	31;"	d
+USBASP_FUNC_TPI_READBLOCK	usbasp.h	32;"	d
+USBASP_FUNC_TPI_WRITEBLOCK	usbasp.h	33;"	d
+USBASP_FUNC_TRANSMIT	usbasp.h	20;"	d
+USBASP_FUNC_WRITEEEPROM	usbasp.h	25;"	d
+USBASP_FUNC_WRITEFLASH	usbasp.h	23;"	d
+USBASP_H_	usbasp.h	15;"	d
+USBASP_ISP_SCK_0_5	usbasp.h	54;"	d
+USBASP_ISP_SCK_1	usbasp.h	55;"	d
+USBASP_ISP_SCK_1500	usbasp.h	65;"	d
+USBASP_ISP_SCK_16	usbasp.h	59;"	d
+USBASP_ISP_SCK_187_5	usbasp.h	62;"	d
+USBASP_ISP_SCK_2	usbasp.h	56;"	d
+USBASP_ISP_SCK_32	usbasp.h	60;"	d
+USBASP_ISP_SCK_375	usbasp.h	63;"	d
+USBASP_ISP_SCK_4	usbasp.h	57;"	d
+USBASP_ISP_SCK_750	usbasp.h	64;"	d
+USBASP_ISP_SCK_8	usbasp.h	58;"	d
+USBASP_ISP_SCK_93_75	usbasp.h	61;"	d
+USBASP_ISP_SCK_AUTO	usbasp.h	53;"	d
+USBATTR_REMOTEWAKE	usbdrv/usbdrv.h	727;"	d
+USBATTR_SELFPOWER	usbdrv/usbdrv.h	726;"	d
+USBDDR	usbdrv/usbdrv.h	547;"	d
+USBDESCR_CONFIG	usbdrv/usbdrv.h	717;"	d
+USBDESCR_DEVICE	usbdrv/usbdrv.h	716;"	d
+USBDESCR_ENDPOINT	usbdrv/usbdrv.h	720;"	d
+USBDESCR_HID	usbdrv/usbdrv.h	721;"	d
+USBDESCR_HID_PHYS	usbdrv/usbdrv.h	723;"	d
+USBDESCR_HID_REPORT	usbdrv/usbdrv.h	722;"	d
+USBDESCR_INTERFACE	usbdrv/usbdrv.h	719;"	d
+USBDESCR_STRING	usbdrv/usbdrv.h	718;"	d
+USBDRV_VERSION	usbdrv/usbdrv.h	129;"	d
+USBIDLE	usbdrv/usbdrv.h	552;"	d
+USBIN	usbdrv/usbdrv.h	546;"	d
+USBMASK	usbdrv/usbdrv.h	553;"	d
+USBMINUS	usbdrv/usbdrv.h	550;"	d
+USBOUT	usbdrv/usbdrv.h	544;"	d
+USBPID_ACK	usbdrv/usbdrv.h	641;"	d
+USBPID_DATA0	usbdrv/usbdrv.h	638;"	d
+USBPID_DATA1	usbdrv/usbdrv.h	639;"	d
+USBPID_IN	usbdrv/usbdrv.h	637;"	d
+USBPID_NAK	usbdrv/usbdrv.h	642;"	d
+USBPID_OUT	usbdrv/usbdrv.h	636;"	d
+USBPID_SETUP	usbdrv/usbdrv.h	635;"	d
+USBPID_STALL	usbdrv/usbdrv.h	643;"	d
+USBPLUS	usbdrv/usbdrv.h	551;"	d
+USBRQ_CLEAR_FEATURE	usbdrv/usbdrv.h	704;"	d
+USBRQ_DIR_DEVICE_TO_HOST	usbdrv/usbdrv.h	700;"	d
+USBRQ_DIR_HOST_TO_DEVICE	usbdrv/usbdrv.h	699;"	d
+USBRQ_DIR_MASK	usbdrv/usbdrv.h	698;"	d
+USBRQ_GET_CONFIGURATION	usbdrv/usbdrv.h	709;"	d
+USBRQ_GET_DESCRIPTOR	usbdrv/usbdrv.h	707;"	d
+USBRQ_GET_INTERFACE	usbdrv/usbdrv.h	711;"	d
+USBRQ_GET_STATUS	usbdrv/usbdrv.h	703;"	d
+USBRQ_HID_GET_IDLE	usbdrv/usbdrv.h	731;"	d
+USBRQ_HID_GET_PROTOCOL	usbdrv/usbdrv.h	732;"	d
+USBRQ_HID_GET_REPORT	usbdrv/usbdrv.h	730;"	d
+USBRQ_HID_SET_IDLE	usbdrv/usbdrv.h	734;"	d
+USBRQ_HID_SET_PROTOCOL	usbdrv/usbdrv.h	735;"	d
+USBRQ_HID_SET_REPORT	usbdrv/usbdrv.h	733;"	d
+USBRQ_RCPT_DEVICE	usbdrv/usbdrv.h	687;"	d
+USBRQ_RCPT_ENDPOINT	usbdrv/usbdrv.h	689;"	d
+USBRQ_RCPT_INTERFACE	usbdrv/usbdrv.h	688;"	d
+USBRQ_RCPT_MASK	usbdrv/usbdrv.h	686;"	d
+USBRQ_SET_ADDRESS	usbdrv/usbdrv.h	706;"	d
+USBRQ_SET_CONFIGURATION	usbdrv/usbdrv.h	710;"	d
+USBRQ_SET_DESCRIPTOR	usbdrv/usbdrv.h	708;"	d
+USBRQ_SET_FEATURE	usbdrv/usbdrv.h	705;"	d
+USBRQ_SET_INTERFACE	usbdrv/usbdrv.h	712;"	d
+USBRQ_SYNCH_FRAME	usbdrv/usbdrv.h	713;"	d
+USBRQ_TYPE_CLASS	usbdrv/usbdrv.h	694;"	d
+USBRQ_TYPE_MASK	usbdrv/usbdrv.h	692;"	d
+USBRQ_TYPE_STANDARD	usbdrv/usbdrv.h	693;"	d
+USBRQ_TYPE_VENDOR	usbdrv/usbdrv.h	695;"	d
+USB_BUFSIZE	usbdrv/usbdrv.h	569;"	d
 USB_CFG_CHECK_CRC	usbdrv/usbconfig-prototype.h	55;"	d
 USB_CFG_CHECK_DATA_TOGGLING	usbdrv/usbconfig-prototype.h	199;"	d
-USB_CFG_CLOCK_KHZ	usbconfig.h	38;"	d
+USB_CFG_CLOCK_KHZ	usbconfig.h	41;"	d
 USB_CFG_CLOCK_KHZ	usbdrv/usbconfig-prototype.h	46;"	d
-USB_CFG_DESCR_PROPS_CONFIGURATION	usbconfig.h	214;"	d
+USB_CFG_DESCR_PROPS_CONFIGURATION	usbconfig.h	217;"	d
 USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbconfig-prototype.h	349;"	d
-USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbdrv.c	140;"	d	file:
-USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbdrv.c	141;"	d	file:
-USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbdrv.h	414;"	d
-USB_CFG_DESCR_PROPS_DEVICE	usbconfig.h	213;"	d
+USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbdrv.c	143;"	d	file:
+USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbdrv.c	144;"	d	file:
+USB_CFG_DESCR_PROPS_CONFIGURATION	usbdrv/usbdrv.h	418;"	d
+USB_CFG_DESCR_PROPS_DEVICE	usbconfig.h	216;"	d
 USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbconfig-prototype.h	348;"	d
-USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbdrv.c	109;"	d	file:
-USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbdrv.c	110;"	d	file:
-USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbdrv.h	411;"	d
-USB_CFG_DESCR_PROPS_HID	usbconfig.h	220;"	d
+USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbdrv.c	112;"	d	file:
+USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbdrv.c	113;"	d	file:
+USB_CFG_DESCR_PROPS_DEVICE	usbdrv/usbdrv.h	415;"	d
+USB_CFG_DESCR_PROPS_HID	usbconfig.h	223;"	d
 USB_CFG_DESCR_PROPS_HID	usbdrv/usbconfig-prototype.h	355;"	d
-USB_CFG_DESCR_PROPS_HID	usbdrv/usbdrv.c	135;"	d	file:
-USB_CFG_DESCR_PROPS_HID	usbdrv/usbdrv.c	136;"	d	file:
-USB_CFG_DESCR_PROPS_HID	usbdrv/usbdrv.h	432;"	d
-USB_CFG_DESCR_PROPS_HID_REPORT	usbconfig.h	221;"	d
+USB_CFG_DESCR_PROPS_HID	usbdrv/usbdrv.c	138;"	d	file:
+USB_CFG_DESCR_PROPS_HID	usbdrv/usbdrv.c	139;"	d	file:
+USB_CFG_DESCR_PROPS_HID	usbdrv/usbdrv.h	436;"	d
+USB_CFG_DESCR_PROPS_HID_REPORT	usbconfig.h	224;"	d
 USB_CFG_DESCR_PROPS_HID_REPORT	usbdrv/usbconfig-prototype.h	356;"	d
-USB_CFG_DESCR_PROPS_HID_REPORT	usbdrv/usbdrv.h	435;"	d
-USB_CFG_DESCR_PROPS_HID_REPORT	usbdrv/usbdrv.h	437;"	d
 USB_CFG_DESCR_PROPS_HID_REPORT	usbdrv/usbdrv.h	439;"	d
-USB_CFG_DESCR_PROPS_STRINGS	usbconfig.h	215;"	d
+USB_CFG_DESCR_PROPS_HID_REPORT	usbdrv/usbdrv.h	441;"	d
+USB_CFG_DESCR_PROPS_HID_REPORT	usbdrv/usbdrv.h	443;"	d
+USB_CFG_DESCR_PROPS_STRINGS	usbconfig.h	218;"	d
 USB_CFG_DESCR_PROPS_STRINGS	usbdrv/usbconfig-prototype.h	350;"	d
-USB_CFG_DESCR_PROPS_STRINGS	usbdrv/usbdrv.h	417;"	d
-USB_CFG_DESCR_PROPS_STRING_0	usbconfig.h	216;"	d
+USB_CFG_DESCR_PROPS_STRINGS	usbdrv/usbdrv.h	421;"	d
+USB_CFG_DESCR_PROPS_STRING_0	usbconfig.h	219;"	d
 USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbconfig-prototype.h	351;"	d
-USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbdrv.c	68;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbdrv.c	69;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbdrv.h	420;"	d
-USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbconfig.h	218;"	d
+USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbdrv.c	71;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbdrv.c	72;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_0	usbdrv/usbdrv.h	424;"	d
+USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbconfig.h	221;"	d
 USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbconfig-prototype.h	353;"	d
-USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbdrv.c	87;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbdrv.c	88;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbdrv.h	426;"	d
-USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbconfig.h	219;"	d
+USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbdrv.c	90;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbdrv.c	91;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_PRODUCT	usbdrv/usbdrv.h	430;"	d
+USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbconfig.h	222;"	d
 USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbconfig-prototype.h	354;"	d
-USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbdrv.c	96;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbdrv.c	97;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbdrv.h	429;"	d
-USB_CFG_DESCR_PROPS_STRING_VENDOR	usbconfig.h	217;"	d
+USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbdrv.c	100;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbdrv.c	99;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_SERIAL_NUMBER	usbdrv/usbdrv.h	433;"	d
+USB_CFG_DESCR_PROPS_STRING_VENDOR	usbconfig.h	220;"	d
 USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbconfig-prototype.h	352;"	d
-USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbdrv.c	78;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbdrv.c	79;"	d	file:
-USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbdrv.h	423;"	d
-USB_CFG_DESCR_PROPS_UNKNOWN	usbconfig.h	222;"	d
+USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbdrv.c	81;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbdrv.c	82;"	d	file:
+USB_CFG_DESCR_PROPS_STRING_VENDOR	usbdrv/usbdrv.h	427;"	d
+USB_CFG_DESCR_PROPS_UNKNOWN	usbconfig.h	225;"	d
 USB_CFG_DESCR_PROPS_UNKNOWN	usbdrv/usbconfig-prototype.h	357;"	d
-USB_CFG_DESCR_PROPS_UNKNOWN	usbdrv/usbdrv.h	443;"	d
-USB_CFG_DEVICE_CLASS	usbconfig.h	154;"	d
+USB_CFG_DESCR_PROPS_UNKNOWN	usbdrv/usbdrv.h	447;"	d
+USB_CFG_DEVICE_CLASS	usbconfig.h	157;"	d
 USB_CFG_DEVICE_CLASS	usbdrv/usbconfig-prototype.h	270;"	d
-USB_CFG_DEVICE_ID	usbconfig.h	120;"	d
+USB_CFG_DEVICE_ID	usbconfig.h	123;"	d
 USB_CFG_DEVICE_ID	usbdrv/usbconfig-prototype.h	231;"	d
-USB_CFG_DEVICE_ID	usbdrv/usbdrv.h	527;"	d
-USB_CFG_DEVICE_ID	usbdrv/usbdrv.h	529;"	d
 USB_CFG_DEVICE_ID	usbdrv/usbdrv.h	531;"	d
-USB_CFG_DEVICE_NAME	usbconfig.h	140;"	d
+USB_CFG_DEVICE_ID	usbdrv/usbdrv.h	533;"	d
+USB_CFG_DEVICE_ID	usbdrv/usbdrv.h	535;"	d
+USB_CFG_DEVICE_NAME	usbconfig.h	143;"	d
 USB_CFG_DEVICE_NAME	usbdrv/usbconfig-prototype.h	255;"	d
-USB_CFG_DEVICE_NAME_LEN	usbconfig.h	141;"	d
+USB_CFG_DEVICE_NAME_LEN	usbconfig.h	144;"	d
 USB_CFG_DEVICE_NAME_LEN	usbdrv/usbconfig-prototype.h	256;"	d
-USB_CFG_DEVICE_SUBCLASS	usbconfig.h	155;"	d
+USB_CFG_DEVICE_SUBCLASS	usbconfig.h	158;"	d
 USB_CFG_DEVICE_SUBCLASS	usbdrv/usbconfig-prototype.h	271;"	d
-USB_CFG_DEVICE_VERSION	usbconfig.h	127;"	d
+USB_CFG_DEVICE_VERSION	usbconfig.h	130;"	d
 USB_CFG_DEVICE_VERSION	usbdrv/usbconfig-prototype.h	242;"	d
-USB_CFG_DMINUS_BIT	usbconfig.h	29;"	d
+USB_CFG_DMINUS_BIT	usbconfig.h	32;"	d
 USB_CFG_DMINUS_BIT	usbdrv/usbconfig-prototype.h	33;"	d
-USB_CFG_DPLUS_BIT	usbconfig.h	33;"	d
+USB_CFG_DPLUS_BIT	usbconfig.h	36;"	d
 USB_CFG_DPLUS_BIT	usbdrv/usbconfig-prototype.h	37;"	d
 USB_CFG_DRIVER_FLASH_PAGE	usbdrv/usbconfig-prototype.h	149;"	d
 USB_CFG_EP3_NUMBER	usbdrv/usbconfig-prototype.h	89;"	d
-USB_CFG_EP3_NUMBER	usbdrv/usbdrv.h	558;"	d
-USB_CFG_HAVE_FLOWCONTROL	usbconfig.h	107;"	d
+USB_CFG_EP3_NUMBER	usbdrv/usbdrv.h	562;"	d
+USB_CFG_HAVE_FLOWCONTROL	usbconfig.h	110;"	d
 USB_CFG_HAVE_FLOWCONTROL	usbdrv/usbconfig-prototype.h	144;"	d
-USB_CFG_HAVE_INTRIN_ENDPOINT	usbconfig.h	62;"	d
+USB_CFG_HAVE_INTRIN_ENDPOINT	usbconfig.h	65;"	d
 USB_CFG_HAVE_INTRIN_ENDPOINT	usbdrv/usbconfig-prototype.h	78;"	d
-USB_CFG_HAVE_INTRIN_ENDPOINT3	usbconfig.h	66;"	d
+USB_CFG_HAVE_INTRIN_ENDPOINT3	usbconfig.h	69;"	d
 USB_CFG_HAVE_INTRIN_ENDPOINT3	usbdrv/usbconfig-prototype.h	83;"	d
-USB_CFG_HAVE_INTRIN_ENDPOINT3	usbdrv/usbdrv.h	562;"	d
+USB_CFG_HAVE_INTRIN_ENDPOINT3	usbdrv/usbdrv.h	566;"	d
 USB_CFG_HAVE_MEASURE_FRAME_LENGTH	usbdrv/usbconfig-prototype.h	207;"	d
-USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH	usbconfig.h	164;"	d
-USB_CFG_IMPLEMENT_FN_READ	usbconfig.h	96;"	d
+USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH	usbconfig.h	167;"	d
+USB_CFG_IMPLEMENT_FN_READ	usbconfig.h	99;"	d
 USB_CFG_IMPLEMENT_FN_READ	usbdrv/usbconfig-prototype.h	132;"	d
-USB_CFG_IMPLEMENT_FN_WRITE	usbconfig.h	91;"	d
+USB_CFG_IMPLEMENT_FN_WRITE	usbconfig.h	94;"	d
 USB_CFG_IMPLEMENT_FN_WRITE	usbdrv/usbconfig-prototype.h	127;"	d
-USB_CFG_IMPLEMENT_FN_WRITEOUT	usbconfig.h	102;"	d
+USB_CFG_IMPLEMENT_FN_WRITEOUT	usbconfig.h	105;"	d
 USB_CFG_IMPLEMENT_FN_WRITEOUT	usbdrv/usbconfig-prototype.h	138;"	d
-USB_CFG_IMPLEMENT_HALT	usbconfig.h	71;"	d
+USB_CFG_IMPLEMENT_HALT	usbconfig.h	74;"	d
 USB_CFG_IMPLEMENT_HALT	usbdrv/usbconfig-prototype.h	99;"	d
-USB_CFG_INTERFACE_CLASS	usbconfig.h	158;"	d
+USB_CFG_INTERFACE_CLASS	usbconfig.h	161;"	d
 USB_CFG_INTERFACE_CLASS	usbdrv/usbconfig-prototype.h	275;"	d
-USB_CFG_INTERFACE_PROTOCOL	usbconfig.h	160;"	d
+USB_CFG_INTERFACE_PROTOCOL	usbconfig.h	163;"	d
 USB_CFG_INTERFACE_PROTOCOL	usbdrv/usbconfig-prototype.h	277;"	d
-USB_CFG_INTERFACE_SUBCLASS	usbconfig.h	159;"	d
+USB_CFG_INTERFACE_SUBCLASS	usbconfig.h	162;"	d
 USB_CFG_INTERFACE_SUBCLASS	usbdrv/usbconfig-prototype.h	276;"	d
-USB_CFG_INTR_POLL_INTERVAL	usbconfig.h	77;"	d
+USB_CFG_INTR_POLL_INTERVAL	usbconfig.h	80;"	d
 USB_CFG_INTR_POLL_INTERVAL	usbdrv/usbconfig-prototype.h	113;"	d
-USB_CFG_IOPORT	usbdrv/usbdrv.h	552;"	d
-USB_CFG_IOPORTNAME	usbconfig.h	25;"	d
+USB_CFG_IOPORT	usbdrv/usbdrv.h	556;"	d
+USB_CFG_IOPORTNAME	usbconfig.h	28;"	d
 USB_CFG_IOPORTNAME	usbdrv/usbconfig-prototype.h	29;"	d
-USB_CFG_IS_SELF_POWERED	usbconfig.h	82;"	d
+USB_CFG_IS_SELF_POWERED	usbconfig.h	85;"	d
 USB_CFG_IS_SELF_POWERED	usbdrv/usbconfig-prototype.h	118;"	d
 USB_CFG_LONG_TRANSFERS	usbdrv/usbconfig-prototype.h	154;"	d
-USB_CFG_MAX_BUS_POWER	usbconfig.h	86;"	d
+USB_CFG_MAX_BUS_POWER	usbconfig.h	89;"	d
 USB_CFG_MAX_BUS_POWER	usbdrv/usbconfig-prototype.h	122;"	d
-USB_CFG_PULLUP_IOPORT	usbdrv/usbdrv.h	554;"	d
-USB_CFG_SERIAL_NUMBER	usbconfig.h	145;"	d
-USB_CFG_SERIAL_NUMBER_LEN	usbconfig.h	146;"	d
+USB_CFG_PULLUP_IOPORT	usbdrv/usbdrv.h	558;"	d
+USB_CFG_SERIAL_NUMBER	usbconfig.h	148;"	d
+USB_CFG_SERIAL_NUMBER_LEN	usbconfig.h	149;"	d
 USB_CFG_SUPPRESS_INTR_CODE	usbdrv/usbconfig-prototype.h	105;"	d
 USB_CFG_USE_SWITCH_STATEMENT	usbdrv/usbportability.h	111;"	d
-USB_CFG_VENDOR_ID	usbconfig.h	115;"	d
+USB_CFG_VENDOR_ID	usbconfig.h	118;"	d
 USB_CFG_VENDOR_ID	usbdrv/usbconfig-prototype.h	222;"	d
-USB_CFG_VENDOR_ID	usbdrv/usbdrv.h	522;"	d
-USB_CFG_VENDOR_NAME	usbconfig.h	130;"	d
+USB_CFG_VENDOR_ID	usbdrv/usbdrv.h	526;"	d
+USB_CFG_VENDOR_NAME	usbconfig.h	133;"	d
 USB_CFG_VENDOR_NAME	usbdrv/usbconfig-prototype.h	245;"	d
-USB_CFG_VENDOR_NAME_LEN	usbconfig.h	131;"	d
+USB_CFG_VENDOR_NAME_LEN	usbconfig.h	134;"	d
 USB_CFG_VENDOR_NAME_LEN	usbdrv/usbconfig-prototype.h	246;"	d
-USB_CONCAT	usbdrv/usbdrv.h	499;"	d
-USB_CONCAT_EXPANDED	usbdrv/usbdrv.h	500;"	d
+USB_CONCAT	usbdrv/usbdrv.h	503;"	d
+USB_CONCAT_EXPANDED	usbdrv/usbdrv.h	504;"	d
 USB_COUNT_SOF	usbdrv/usbconfig-prototype.h	175;"	d
-USB_DDRPORT	usbdrv/usbdrv.h	504;"	d
-USB_FLG_MSGPTR_IS_ROM	usbdrv/usbdrv.c	52;"	d	file:
-USB_FLG_USE_USER_RW	usbdrv/usbdrv.c	53;"	d	file:
-USB_INITIAL_DATATOKEN	usbdrv/usbdrv.h	642;"	d
-USB_INPORT	usbdrv/usbdrv.h	503;"	d
-USB_INTR_CFG	usbdrv/usbdrv.h	571;"	d
-USB_INTR_CFG	usbdrv/usbdrv.h	573;"	d
-USB_INTR_CFG_CLR	usbdrv/usbdrv.h	587;"	d
-USB_INTR_CFG_SET	usbdrv/usbdrv.h	578;"	d
-USB_INTR_CFG_SET	usbdrv/usbdrv.h	583;"	d
-USB_INTR_ENABLE	usbdrv/usbdrv.h	592;"	d
-USB_INTR_ENABLE	usbdrv/usbdrv.h	594;"	d
+USB_DDRPORT	usbdrv/usbdrv.h	508;"	d
+USB_FLG_MSGPTR_IS_ROM	usbdrv/usbdrv.c	55;"	d	file:
+USB_FLG_USE_USER_RW	usbdrv/usbdrv.c	56;"	d	file:
+USB_INITIAL_DATATOKEN	usbdrv/usbdrv.h	646;"	d
+USB_INPORT	usbdrv/usbdrv.h	507;"	d
+USB_INTR_CFG	usbdrv/usbdrv.h	575;"	d
+USB_INTR_CFG	usbdrv/usbdrv.h	577;"	d
+USB_INTR_CFG_CLR	usbdrv/usbdrv.h	591;"	d
+USB_INTR_CFG_SET	usbdrv/usbdrv.h	582;"	d
+USB_INTR_CFG_SET	usbdrv/usbdrv.h	587;"	d
 USB_INTR_ENABLE	usbdrv/usbdrv.h	596;"	d
-USB_INTR_ENABLE_BIT	usbdrv/usbdrv.h	600;"	d
-USB_INTR_PENDING	usbdrv/usbdrv.h	605;"	d
-USB_INTR_PENDING	usbdrv/usbdrv.h	607;"	d
-USB_INTR_PENDING_BIT	usbdrv/usbdrv.h	611;"	d
-USB_NO_MSG	usbdrv/usbdrv.h	164;"	d
-USB_OUTPORT	usbdrv/usbdrv.h	502;"	d
-USB_PROP_IS_DYNAMIC	usbdrv/usbdrv.h	393;"	d
-USB_PROP_IS_RAM	usbdrv/usbdrv.h	399;"	d
-USB_PROP_LENGTH	usbdrv/usbdrv.h	404;"	d
-USB_PUBLIC	usbdrv/usbdrv.h	135;"	d
-USB_PULLUP_DDR	usbdrv/usbdrv.h	544;"	d
-USB_PULLUP_OUT	usbdrv/usbdrv.h	541;"	d
+USB_INTR_ENABLE	usbdrv/usbdrv.h	598;"	d
+USB_INTR_ENABLE	usbdrv/usbdrv.h	600;"	d
+USB_INTR_ENABLE_BIT	usbdrv/usbdrv.h	604;"	d
+USB_INTR_PENDING	usbdrv/usbdrv.h	609;"	d
+USB_INTR_PENDING	usbdrv/usbdrv.h	611;"	d
+USB_INTR_PENDING_BIT	usbdrv/usbdrv.h	615;"	d
+USB_NO_MSG	usbdrv/usbdrv.h	168;"	d
+USB_OUTPORT	usbdrv/usbdrv.h	506;"	d
+USB_PROP_IS_DYNAMIC	usbdrv/usbdrv.h	397;"	d
+USB_PROP_IS_RAM	usbdrv/usbdrv.h	403;"	d
+USB_PROP_LENGTH	usbdrv/usbdrv.h	408;"	d
+USB_PUBLIC	usbdrv/usbdrv.h	139;"	d
+USB_PULLUP_DDR	usbdrv/usbdrv.h	548;"	d
+USB_PULLUP_OUT	usbdrv/usbdrv.h	545;"	d
 USB_READ_FLASH	usbdrv/usbportability.h	129;"	d
 USB_READ_FLASH	usbdrv/usbportability.h	131;"	d
 USB_READ_FLASH	usbdrv/usbportability.h	55;"	d
 USB_READ_FLASH	usbdrv/usbportability.h	97;"	d
-USB_RX_USER_HOOK	usbdrv/usbdrv.c	283;"	d	file:
-USB_SET_ADDRESS_HOOK	usbdrv/usbdrv.c	286;"	d	file:
-USB_SET_DATATOKEN1	usbdrv/usbdrv.h	375;"	d
-USB_SET_DATATOKEN3	usbdrv/usbdrv.h	376;"	d
-USB_STRING_DESCRIPTOR_HEADER	usbdrv/usbdrv.h	353;"	d
+USB_RX_USER_HOOK	usbdrv/usbdrv.c	286;"	d	file:
+USB_SET_ADDRESS_HOOK	usbdrv/usbdrv.c	289;"	d	file:
+USB_SET_DATATOKEN1	usbdrv/usbdrv.h	379;"	d
+USB_SET_DATATOKEN3	usbdrv/usbdrv.h	380;"	d
+USB_STRING_DESCRIPTOR_HEADER	usbdrv/usbdrv.h	357;"	d
 USB_USE_FAST_CRC	usbdrv/usbconfig-prototype.h	211;"	d
 XH	usbdrv/usbportability.h	68;"	d
 XL	usbdrv/usbportability.h	67;"	d
@@ -375,9 +375,9 @@ __attribute__	usbdrv/usbportability.h	94;"	d
 __clock_h_included__	clock.h	12;"	d
 __isp_h_included__	isp.h	13;"	d
 __oddebug_h_included__	usbdrv/oddebug.h	12;"	d
-__usbconfig_h_included__	usbconfig.h	11;"	d
+__usbconfig_h_included__	usbconfig.h	14;"	d
 __usbconfig_h_included__	usbdrv/usbconfig-prototype.h	12;"	d
-__usbdrv_h_included__	usbdrv/usbdrv.h	12;"	d
+__usbdrv_h_included__	usbdrv/usbdrv.h	16;"	d
 __usbportability_h_INCLUDED__	usbdrv/usbportability.h	25;"	d
 _delay_ms	usbdrv/usbportability.h	109;"	d
 bRequest	usbdrv/usbdrv.h	/^    uchar       bRequest;$/;"	m	struct:usbRequest
@@ -412,10 +412,10 @@ ispWriteEEPROM	isp.c	/^uchar ispWriteEEPROM(unsigned int address, uchar data) {$
 ispWriteFlash	isp.c	/^uchar ispWriteFlash(unsigned long address, uchar data, uchar pollmode) {$/;"	f
 isp_hiaddr	isp.c	/^uchar isp_hiaddr;$/;"	v
 leap	usbdrv/usbdrvasm.S	/^#define leap    x4$/;"	d
-ledGreenOff	usbasp.h	68;"	d
-ledGreenOn	usbasp.h	67;"	d
-ledRedOff	usbasp.h	66;"	d
-ledRedOn	usbasp.h	65;"	d
+ledGreenOff	usbasp.h	79;"	d
+ledGreenOn	usbasp.h	78;"	d
+ledRedOff	usbasp.h	77;"	d
+ledRedOn	usbasp.h	76;"	d
 len	usbdrv/usbdrv.h	/^    volatile uchar   len;$/;"	m	struct:usbTxStatus
 lo8	usbdrv/usbportability.h	73;"	d
 macro	usbdrv/usbportability.h	113;"	d
@@ -438,7 +438,7 @@ prog_pagesize	main.c	/^static unsigned int prog_pagesize;$/;"	v	file:
 prog_sck	main.c	/^static uchar prog_sck = USBASP_ISP_SCK_AUTO;$/;"	v	file:
 prog_state	main.c	/^static uchar prog_state = PROG_STATE_IDLE;$/;"	v	file:
 replyBuffer	main.c	/^static uchar replyBuffer[8];$/;"	v	file:
-schar	usbdrv/usbdrv.h	149;"	d
+schar	usbdrv/usbdrv.h	153;"	d
 sck_spcr	isp.c	/^uchar sck_spcr;$/;"	v
 sck_spsr	isp.c	/^uchar sck_spsr;$/;"	v
 sck_sw_delay	isp.c	/^uchar sck_sw_delay;$/;"	v
@@ -459,13 +459,13 @@ tpi_write_block	tpi.S	/^tpi_write_block:$/;"	l
 uartPutc	usbdrv/oddebug.c	/^static void uartPutc(char c)$/;"	f	file:
 uchar	isp.h	16;"	d
 uchar	usbdrv/oddebug.h	35;"	d
-uchar	usbdrv/usbdrv.h	146;"	d
-usbAllRequestsAreDisabled	usbdrv/usbdrv.h	368;"	d
+uchar	usbdrv/usbdrv.h	150;"	d
+usbAllRequestsAreDisabled	usbdrv/usbdrv.h	372;"	d
 usbBuildTxBlock	usbdrv/usbdrv.c	/^static inline void usbBuildTxBlock(void)$/;"	f	file:
 usbConfiguration	usbdrv/usbdrv.c	/^uchar       usbConfiguration;   \/* currently selected configuration. Administered by driver, but not used *\/$/;"	v
-usbCrc16	usbdrv/usbdrv.h	310;"	d
+usbCrc16	usbdrv/usbdrv.h	314;"	d
 usbCrc16	usbdrv/usbdrvasm.S	/^usbCrc16:$/;"	l
-usbCrc16Append	usbdrv/usbdrv.h	318;"	d
+usbCrc16Append	usbdrv/usbdrv.h	322;"	d
 usbCrc16Append	usbdrv/usbdrvasm.S	/^usbCrc16Append:$/;"	l
 usbCrc16ByteLoop	usbdrv/usbdrvasm.S	/^usbCrc16ByteLoop:$/;"	l
 usbCrc16LoopTest	usbdrv/usbdrvasm.S	/^usbCrc16LoopTest:$/;"	l
@@ -483,25 +483,25 @@ usbDescriptorStringDevice	usbdrv/usbdrv.c	/^PROGMEM const int  usbDescriptorStri
 usbDescriptorStringSerialNumber	usbdrv/usbdrv.c	/^PROGMEM const int usbDescriptorStringSerialNumber[] = {$/;"	v
 usbDescriptorStringVendor	usbdrv/usbdrv.c	/^PROGMEM const int  usbDescriptorStringVendor[] = {$/;"	v
 usbDeviceAddr	usbdrv/usbdrv.c	/^uchar       usbDeviceAddr;      \/* assigned during enumeration, defaults to 0 *\/$/;"	v
-usbDeviceConnect	usbdrv/usbdrv.h	289;"	d
-usbDeviceConnect	usbdrv/usbdrv.h	294;"	d
-usbDeviceDisconnect	usbdrv/usbdrv.h	291;"	d
+usbDeviceConnect	usbdrv/usbdrv.h	293;"	d
+usbDeviceConnect	usbdrv/usbdrv.h	298;"	d
 usbDeviceDisconnect	usbdrv/usbdrv.h	295;"	d
+usbDeviceDisconnect	usbdrv/usbdrv.h	299;"	d
 usbDeviceRead	usbdrv/usbdrv.c	/^static uchar usbDeviceRead(uchar *data, uchar len)$/;"	f	file:
-usbDisableAllRequests	usbdrv/usbdrv.h	359;"	d
+usbDisableAllRequests	usbdrv/usbdrv.h	363;"	d
 usbDriverDescriptor	usbdrv/usbdrv.c	/^static inline usbMsgLen_t usbDriverDescriptor(usbRequest_t *rq)$/;"	f	file:
 usbDriverSetup	usbdrv/usbdrv.c	/^static inline usbMsgLen_t usbDriverSetup(usbRequest_t *rq)$/;"	f	file:
-usbEnableAllRequests	usbdrv/usbdrv.h	364;"	d
+usbEnableAllRequests	usbdrv/usbdrv.h	368;"	d
 usbFunctionRead	main.c	/^uchar usbFunctionRead(uchar *data, uchar len) {$/;"	f
 usbFunctionSetup	main.c	/^uchar usbFunctionSetup(uchar data[8]) {$/;"	f
 usbFunctionWrite	main.c	/^uchar usbFunctionWrite(uchar *data, uchar len) {$/;"	f
 usbGenericSetInterrupt	usbdrv/usbdrv.c	/^static void usbGenericSetInterrupt(uchar *data, uchar len, usbTxStatus_t *txStatus)$/;"	f	file:
 usbHandleResetHook	usbdrv/usbdrv.c	/^static inline void usbHandleResetHook(uchar notResetState)$/;"	f	file:
-usbHidReportDescriptor	usbdrv/usbdrv.h	239;"	d
+usbHidReportDescriptor	usbdrv/usbdrv.h	243;"	d
 usbInit	usbdrv/usbdrv.c	/^USB_PUBLIC void usbInit(void)$/;"	f
 usbInputBufOffset	usbdrv/usbdrv.c	/^uchar       usbInputBufOffset;  \/* offset in usbRxBuf used for low level receiving *\/$/;"	v
-usbInterruptIsReady	usbdrv/usbdrv.h	227;"	d
-usbInterruptIsReady3	usbdrv/usbdrv.h	234;"	d
+usbInterruptIsReady	usbdrv/usbdrv.h	231;"	d
+usbInterruptIsReady3	usbdrv/usbdrv.h	238;"	d
 usbMFTime16	usbdrv/usbdrvasm.S	/^usbMFTime16:$/;"	l
 usbMFTimeout	usbdrv/usbdrvasm.S	/^usbMFTimeout:$/;"	l
 usbMFWaitIdle	usbdrv/usbdrvasm.S	/^usbMFWaitIdle:              ; then wait until idle again$/;"	l
@@ -510,8 +510,8 @@ usbMFWaitStrobe	usbdrv/usbdrvasm.S	/^usbMFWaitStrobe:            ; first wait fo
 usbMeasureFrameLength	usbdrv/usbdrvasm.S	/^usbMeasureFrameLength:$/;"	l
 usbMsgFlags	usbdrv/usbdrv.c	/^static uchar        usbMsgFlags;    \/* flag values see below *\/$/;"	v	file:
 usbMsgLen	usbdrv/usbdrv.c	/^static usbMsgLen_t  usbMsgLen = USB_NO_MSG; \/* remaining number of bytes *\/$/;"	v	file:
-usbMsgLen_t	usbdrv/usbdrv.h	154;"	d
-usbMsgLen_t	usbdrv/usbdrv.h	156;"	d
+usbMsgLen_t	usbdrv/usbdrv.h	158;"	d
+usbMsgLen_t	usbdrv/usbdrv.h	160;"	d
 usbMsgPtr	usbdrv/usbdrv.c	/^uchar               *usbMsgPtr;     \/* data to transmit next -- ROM or RAM address *\/$/;"	v
 usbNewDeviceAddr	usbdrv/usbdrv.c	/^uchar       usbNewDeviceAddr;   \/* device ID which should be set after status phase *\/$/;"	v
 usbPoll	usbdrv/usbdrv.c	/^USB_PUBLIC void usbPoll(void)$/;"	f
@@ -527,14 +527,14 @@ usbSetInterrupt	usbdrv/usbdrv.c	/^USB_PUBLIC void usbSetInterrupt(uchar *data, u
 usbSetInterrupt3	usbdrv/usbdrv.c	/^USB_PUBLIC void usbSetInterrupt3(uchar *data, uchar len)$/;"	f
 usbSofCount	usbdrv/usbdrv.c	/^volatile uchar  usbSofCount;    \/* incremented by assembler module every SOF *\/$/;"	v
 usbTxBuf	usbdrv/usbdrv.c	/^uchar       usbTxBuf[USB_BUFSIZE];\/* data to transmit with next IN, free if usbTxLen contains handshake token *\/$/;"	v
-usbTxBuf1	usbdrv/usbdrv.h	654;"	d
+usbTxBuf1	usbdrv/usbdrv.h	658;"	d
 usbTxBuf1	usbdrv/usbdrvasm.S	/^#define usbTxBuf1   (usbTxStatus1 + 1)$/;"	d
-usbTxBuf3	usbdrv/usbdrv.h	656;"	d
+usbTxBuf3	usbdrv/usbdrv.h	660;"	d
 usbTxBuf3	usbdrv/usbdrvasm.S	/^#define usbTxBuf3   (usbTxStatus3 + 1)$/;"	d
 usbTxLen	usbdrv/usbdrv.c	/^volatile uchar usbTxLen = USBPID_NAK;   \/* number of bytes to transmit with next IN token or handshake token *\/$/;"	v
-usbTxLen1	usbdrv/usbdrv.h	653;"	d
+usbTxLen1	usbdrv/usbdrv.h	657;"	d
 usbTxLen1	usbdrv/usbdrvasm.S	/^#define usbTxLen1   usbTxStatus1$/;"	d
-usbTxLen3	usbdrv/usbdrv.h	655;"	d
+usbTxLen3	usbdrv/usbdrv.h	659;"	d
 usbTxLen3	usbdrv/usbdrvasm.S	/^#define usbTxLen3   usbTxStatus3$/;"	d
 usbTxStatus	usbdrv/usbdrv.h	/^typedef struct usbTxStatus{$/;"	s
 usbTxStatus1	usbdrv/usbdrv.c	/^usbTxStatus_t  usbTxStatus1;$/;"	v
